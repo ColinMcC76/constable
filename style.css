@@ -1,0 +1,52 @@
+/* 
+.blogPost {
+    height:100vh;
+    width:100vh;
+}
+#sidebar{
+    width: 30vh;
+}
+#about {
+
+    height: 60vh; 
+
+}
+#popularPosts {
+    height:100vh;   
+    
+}
+#socialMedia {
+    height: 40vh;
+}
+footer{
+    max-width: 100vh;
+    height: 200px;
+}
+.link{
+    font-size: 35px;
+    color: Black;
+}
+.link:hover{
+    color: black;
+    text-decoration: none;
+}
+#brand{
+    max-width: 50vh;
+    max-height: 25vh;
+} */
+@media screen and (max-width: 600px) {
+    #brand{
+        content: url("img/brandSmall.svg");
+    }
+}
+.imgResize{
+    width: 100%;
+    height: auto;
+}
+.footFix{
+    padding-bottom: 162px;
+} /* img-fluid didn't work? had to custom css this part */
+.navFix{
+    padding-right: 25px;
+    padding-left: 25px;
+}
